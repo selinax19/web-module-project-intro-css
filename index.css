@@ -40,6 +40,7 @@ blockquote, q {
         padding:0;
         margin:0;
         max-width:100%;
+        border:1px solid grey;
     }
     /*General styles*/
     html{
@@ -91,4 +92,71 @@ blockquote, q {
     .yellow{
         background-color:#FFCD69;
         margin-right: 10%;
+    }
+    .cta{
+        position: relative;
+    }
+    .text, .image{
+        display: inline-block;
+    }
+    .image{
+        width: 30%;
+    }
+    .round{
+        border-radius:50%;
+    }
+    .text{
+        width:55%;
+        margin-left:5%;
+        text-align:center;
+        line-height:3;
+        position:absolute;
+        top: 150px;
+    }
+
+    .main{
+        background-color: #DDB9A3;
+        color:white;
+        padding:2%;
+    }
+
+    .info div{
+        width: 30%
+        margin:0 auto;
+    }
+    .bold{
+        font-weight: bold;
+    }
+    .bg-img{
+        background-image: url('assets/footer_img.jpg');
+        height:50vh;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: top center;
+        width:100%;
+    }
+    footer{
+        background-color: #F9E7DC;
+    }
+    .titles{
+        text-align: center;
+        position: relative;
+    }
+    .left, .right{
+        display:inline-block;  
+        margin-left: 5%;
+    }
+    .left{
+    width:30%;    
+    }
+    .left img{
+        border-radius: 50%;
+    }
+    .right{
+        width:55%
+        margin-left: 5%;
+    }
+    .right div{
+        position: absolute;
+        top: 50%;
     }
